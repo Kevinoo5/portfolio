@@ -6,13 +6,25 @@ const Navbar = () => {
             </div>
 
             <ul className='flex px-4'>
-                <li className='p-6 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>Home</li>
-                <li className='p-6 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>About Me</li>
-                <li className='p-6 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>My Work</li>
-                <li className='p-6 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>Contact</li>
+                <li className='p-6 m-2'>
+                    <a href="/" className='rounded-xl scroll-smooth text-3xl cursor-pointer hover-underline-animation'>Home</a>
+                </li>
+                <li className='p-6 m-2'>
+                    <a href="#about" className='rounded-xl scroll-smooth text-3xl cursor-pointer hover-underline-animation'>About Me</a>
+                </li>
+                <li className='p-6 m-2'>
+                    <a href="#skills" className='rounded-xl scroll-smooth text-3xl cursor-pointer hover-underline-animation'>My Skills</a>
+                </li>
+                <li className='p-6 m-2'>
+                    <a href="#work" className='rounded-xl scroll-smooth text-3xl cursor-pointer hover-underline-animation'>My Work</a>
+                </li>
+            
+                <li className='p-6 m-2'>
+                    <a href="#contact" className='rounded-xl scroll-smooth text-3xl cursor-pointer hover-underline-animation'>Contact</a>
+                </li>
             </ul>
         </div>
     );
 }
 
-export default Navbar
+export default Navbar;
