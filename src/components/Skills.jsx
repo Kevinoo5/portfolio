@@ -1,7 +1,9 @@
+import AnimatedTitle from "../common/AnimatedTitle";
+
 const Skills = () => {
     return (
         <div className="py-16" id="skills">
-            <h1 className="flex justify-center text-4xl py-8 text-white">My Skills</h1>
+            <AnimatedTitle title={"My Skills"} />
             <div className="flex justify-center mx-24 flex-wrap">
                 <div className="my-4 mx-8 flex flex-wrap justify-center">
                     <div className="flex flex-col items-center mx-6">
