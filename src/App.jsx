@@ -12,7 +12,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <MyWork />
-        </div>
+    </div>
     )
 }
 
