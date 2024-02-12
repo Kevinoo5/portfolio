@@ -10,7 +10,7 @@ const AnimatedListItem = ({ project }) => {
 <li ref={ref} className={`border border-red-600 mx-24 flex ${inView ? 'animate-fade-left' : 'opacity-0'}`}>
   <div className="my-6 mx-8">
     <img
-      className="rounded-3xl min-w-[300px] min-h-[300px] w-[300px] h-[300px]"
+      className="rounded-3xl min-w-[300px] min-h-[250px] w-[300px] h-[250px]"
       src={project.imageUrl}
       alt={project.title}
     />

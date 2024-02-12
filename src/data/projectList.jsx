@@ -7,9 +7,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "Project 2",
-    imageUrl: "https://via.placeholder.com/300",
-    description: "Description of Project 2"
+    title: "React Expense Tracker",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    description: "This project was made to learn the basics of React. It is a simple expense tracker that allows the user to add and remove expenses."
   },
 ];
 

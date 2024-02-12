@@ -1,11 +1,11 @@
 import AnimatedListItem from "../common/AnimatedListItem";
 import AnimatedTitle from "../common/AnimatedTitle";
-import projects from "../data/workList";
+import projects from "../data/projectList";
 
-const MyWork = () => {
+const MyProjects = () => {
     return (
       <ul>
-        <AnimatedTitle title={"My Work"} />
+        <AnimatedTitle title={"My Projects"} />
         {projects.map((project) => (
           <AnimatedListItem key={project.id} project={project} />
         ))}
@@ -13,4 +13,4 @@ const MyWork = () => {
     );
   };
   
-  export default MyWork;
+  export default MyProjects;
