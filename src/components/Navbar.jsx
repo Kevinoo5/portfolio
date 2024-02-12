@@ -1,3 +1,5 @@
+import NavbarItem from "../common/NavbarItem";
+
 const Navbar = () => {
     return (
         <div className='flex items-center h-24 mx-auto px-12 text-white'>
@@ -6,22 +8,11 @@ const Navbar = () => {
             </div>
 
             <ul className='flex px-4'>
-                <li className='p-6 m-2'>
-                    <a href="/" className='rounded-xl scroll-smooth text-2xl cursor-pointer hover-underline-animation'>Home</a>
-                </li>
-                <li className='p-6 m-2'>
-                    <a href="#about" className='rounded-xl scroll-smooth text-2xl cursor-pointer hover-underline-animation'>About Me</a>
-                </li>
-                <li className='p-6 m-2'>
-                    <a href="#skills" className='rounded-xl scroll-smooth text-2xl cursor-pointer hover-underline-animation'>My Skills</a>
-                </li>
-                <li className='p-6 m-2'>
-                    <a href="#work" className='rounded-xl scroll-smooth text-2xl cursor-pointer hover-underline-animation'>My Work</a>
-                </li>
-            
-                <li className='p-6 m-2'>
-                    <a href="#contact" className='rounded-xl scroll-smooth text-2xl cursor-pointer hover-underline-animation'>Contact</a>
-                </li>
+                <NavbarItem title="Home" link="/" />
+                <NavbarItem title="About Me" link="#about" />
+                <NavbarItem title="My Skills" link="#skills" />
+                <NavbarItem title="My Projects" link="#work" />
+                <NavbarItem title="Contact" link="#contact" />
             </ul>
         </div>
     );
