@@ -7,7 +7,7 @@ import Experience from './components/Experience'
 
 const App = () => {
     return (
-        <div className="App" id="light-effect">
+        <div className="App bg-gradient-to-b from-gray-900 to-gray-800">
         <Navbar />
         <Banner />
         <AboutMe />
