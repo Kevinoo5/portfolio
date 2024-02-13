@@ -12,16 +12,19 @@ import AnimatedTitle from "../common/AnimatedTitle";
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
    
     return (
-      <div id="experience" className="mx-24">
+      <div id="experience" className="mx-2 lg:mx-64">
         <AnimatedTitle title="Experience" />
-        <Accordion open={open === 1} className="mb-2 rounded-lg bg-gradient-to-b from-blue-900 to-blue-950 border border-blue-gray-100">
-          <AccordionHeader
-            onClick={() => handleOpen(1)}
-            className={"border-b-0 transition-colors text-white"}
-          >
-            Volugram
-          </AccordionHeader>
-          <AccordionBody>
+        <Accordion open={open === 1} className="mb-2 rounded-lg">
+        <AccordionHeader
+      onClick={() => handleOpen(1)}
+      className={"flex justify-evenly py-8 rounded-xl transition-colors text-white bg-gradient-to-b from-purple-950 to-[#3f2350]"}
+    >
+      <div className="pl-6">
+        Frontend Developer on <strong>Volugram</strong>
+      </div>
+      <div className="">January 2024 - Present</div>
+    </AccordionHeader>
+          <AccordionBody className="mt-2 pl-6 bg-[#4e3f8d] text-white">
             <p>
               <strong>Frontend Developer</strong>
               <br />

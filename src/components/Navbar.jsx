@@ -15,8 +15,7 @@ const Navbar = () => {
           KEVIN NOORMETS
         </a>
       </div>
-
-      {/* Hamburger Icon */}
+      
       <div className="lg:hidden" onClick={toggleMenu}>
       <svg
           className="w-8 h-8 cursor-pointer"

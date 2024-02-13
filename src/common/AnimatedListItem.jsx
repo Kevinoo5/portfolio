@@ -9,7 +9,7 @@ const AnimatedListItem = ({ project }) => {
   return (
     <li
     ref={ref}
-    className={`p-1 bg-gradient-to-l from-gray-800 to-slate-900 rounded-xl mb-4 lg:mx-24 mx-2 flex ${
+    className={`p-1 bg-gradient-to-r from-slate-900 to-gray-800 rounded-xl mb-4 lg:mx-24 mx-2 flex ${
       inView ? "animate-fade-left" : "opacity-0"
     }`}
   >
