@@ -1,15 +1,31 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import NavbarItem from "../common/NavbarItem";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isBlurred, setIsBlurred] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const threshold = 400;
+      setIsBlurred(scrollPosition > threshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
   return (
-    <div className="flex fixed w-full z-10 backdrop-blur-xl items-center px-12 text-white">
+    <div className={`flex fixed w-full z-10 items-center px-12 text-white ${isBlurred ? 'backdrop-blur-xl' : ''}`}>
       <div className="flex-1">
         <NavbarItem title="KEVIN NOORMETS" targetId="home" customStyles="text-3xl font-bold text-[#00df9a]">
           KEVIN NOORMETS
