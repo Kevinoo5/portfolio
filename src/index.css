@@ -7,10 +7,6 @@ html {
   margin: 0;
 }
 
-#light-effect {
-  background: radial-gradient(transparent, rgba(29, 78, 216, 0.2) 80%);
-}
-
 .hover-underline-animation {
   display: inline-block;
   position: relative;
