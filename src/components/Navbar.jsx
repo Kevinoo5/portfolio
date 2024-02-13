@@ -9,13 +9,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex fixed w-full z-10 backdrop-blur-xl items-center h-24 mx-auto px-12 text-white">
+    <div className="flex fixed w-full z-10 backdrop-blur-xl items-center px-12 text-white">
       <div className="flex-1">
-        <a href="/" className="text-3xl font-bold text-[#00df9a]">
+        <NavbarItem title="KEVIN NOORMETS" targetId="home" customStyles="text-3xl font-bold text-[#00df9a]">
           KEVIN NOORMETS
-        </a>
+          </NavbarItem>
       </div>
-      
+
       <div className="lg:hidden" onClick={toggleMenu}>
       <svg
           className="w-8 h-8 cursor-pointer"
@@ -33,14 +33,13 @@ const Navbar = () => {
         </svg>
       </div>
 
-      {/* Menu Items */}
-      <ul className={`lg:flex lg:flex-wrap ${showMenu ? 'flex flex-wrap' : 'hidden'}`}>
+      <div className={`lg:flex lg:flex-wrap ${showMenu ? 'flex flex-col' : 'hidden'}`}>
         <NavbarItem title="About Me" targetId="about" />
         <NavbarItem title="Skills" targetId="skills" />
         <NavbarItem title="Projects" targetId="projects" />
         <NavbarItem title="Experience" targetId="experience" />
         <NavbarItem title="Contact" targetId="contact" />
-      </ul>
+      </div>
     </div>
   );
 };
