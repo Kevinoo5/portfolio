@@ -12,7 +12,7 @@ import AnimatedTitle from "../common/AnimatedTitle";
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
    
     return (
-      <div className="mx-24">
+      <div id="experience" className="mx-24">
         <AnimatedTitle title="Experience" />
         <Accordion open={open === 1} className="mb-2 rounded-lg bg-gradient-to-b from-blue-900 to-blue-950 border border-blue-gray-100">
           <AccordionHeader

@@ -1,21 +1,23 @@
 import NavbarItem from "../common/NavbarItem";
 
 const Navbar = () => {
-    return (
-        <div className='flex items-center h-24 mx-auto px-12 text-white'>
-            <div className="flex-1">
-                <h1 className='text-2xl font-bold text-[#00df9a]'>KEVIN NOORMETS</h1>
-            </div>
+  return (
+    <div className="flex items-center h-24 mx-auto px-12 text-white">
+      <div className="flex-1">
+        <a href="/" className="text-3xl font-bold text-[#00df9a]">
+          KEVIN NOORMETS
+        </a>
+      </div>
 
-            <ul className='flex px-4'>
-                <NavbarItem title="Home" link="/" />
-                <NavbarItem title="About Me" link="#about" />
-                <NavbarItem title="My Skills" link="#skills" />
-                <NavbarItem title="My Projects" link="#work" />
-                <NavbarItem title="Contact" link="#contact" />
-            </ul>
-        </div>
-    );
-}
+      <ul className="flex flex-wrap">
+        <NavbarItem title="About Me" targetId="about" />
+        <NavbarItem title="Skills" targetId="skills" />
+        <NavbarItem title="Projects" targetId="projects" />
+        <NavbarItem title="Experience" targetId="experience" />
+        <NavbarItem title="Contact" targetId="contact" />
+      </ul>
+    </div>
+  );
+};
 
 export default Navbar;

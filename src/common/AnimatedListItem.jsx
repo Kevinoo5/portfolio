@@ -9,13 +9,13 @@ const AnimatedListItem = ({ project }) => {
   return (
     <li
     ref={ref}
-    className={`p-1 bg-gradient-to-b from-blue-900 to-blue-950 rounded-xl mb-4 mx-24 flex ${
+    className={`p-1 bg-gradient-to-b from-blue-900 to-blue-950 rounded-xl mb-4 lg:mx-24 mx-2 flex ${
       inView ? "animate-fade-left" : "opacity-0"
     }`}
   >
     <div className="my-6 mx-8">
       <img
-        className="rounded-3xl min-w-[300px] min-h-[250px] w-[300px] h-[250px]"
+        className="rounded-3xl min-w-28 min-h-24 w-28 h-24 md:min-w-80 md:min-h-72 md:w-80 md:h-72"
         src={project.imageUrl}
         alt={project.title}
       />

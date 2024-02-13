@@ -4,7 +4,7 @@ import projects from "../data/projectList";
 
 const MyProjects = () => {
     return (
-      <ul>
+      <ul id="projects">
         <AnimatedTitle title={"My Projects"} />
         {projects.map((project) => (
           <AnimatedListItem key={project.id} project={project} />
