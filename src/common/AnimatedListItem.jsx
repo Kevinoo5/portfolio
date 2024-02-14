@@ -15,7 +15,7 @@ const AnimatedListItem = ({ project }) => {
   >
     <div className="my-6 mx-8">
       <img
-        className="rounded-3xl min-w-28 min-h-24 w-28 h-24 md:min-w-80 md:min-h-72 md:w-80 md:h-72"
+        className="rounded-3xl min-w-28 min-h-24 w-28 h-24 md:min-w-80 md:min-h-56 md:w-80 md:h-56"
         src={project.imageUrl}
         alt={project.title}
       />
