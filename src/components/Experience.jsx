@@ -26,7 +26,7 @@ const Experience = () => {
           </div>
           <div>January 2024 - Present</div>
         </AccordionHeader>
-        <AccordionBody className="mt-2 pl-6 rounded-md bg-[#4e3f8d] text-white">
+        <AccordionBody className="mt-2 pl-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
         <img src="https://volugram.eu/wp-content/uploads/2024/02/VOLUGRAM-Logo-White.png" alt="Volugram" className="w-1/4" />
 
           <p className="w-full">
