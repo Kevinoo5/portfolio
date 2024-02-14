@@ -8,7 +8,7 @@ const AnimatedTitle = ({ title }) => {
       });
 
     return (
-        <h1 ref={ref} className={`flex justify-center font-bold text-4xl py-8 text-white ${inView ? 'animate-fade-up animate-delay-100' : 'opacity-0'}`}>{title}</h1>
+        <h1 ref={ref} className={`flex justify-center font-bold text-4xl py-8 text-white ${inView ? 'animate-fade-up animate-delay-200' : 'opacity-0'}`}>{title}</h1>
     );
 }
  

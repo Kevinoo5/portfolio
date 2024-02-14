@@ -10,7 +10,7 @@ const AnimatedListItem = ({ project }) => {
     <li
     ref={ref}
     className={`p-1 bg-gradient-to-r from-slate-900 to-gray-800 rounded-xl mb-4 lg:mx-24 mx-2 flex ${
-      inView ? "animate-fade-left" : "opacity-0"
+      inView ? "animate-fade-left animate-duration-[2500ms]" : "opacity-0"
     }`}
   >
     <div className="my-6 mx-8">
