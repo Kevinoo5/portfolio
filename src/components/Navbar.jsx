@@ -54,7 +54,6 @@ const Navbar = () => {
         <NavbarItem title="Skills" targetId="skills" />
         <NavbarItem title="Projects" targetId="projects" />
         <NavbarItem title="Experience" targetId="experience" />
-        <NavbarItem title="Contact" targetId="contact" />
       </div>
     </div>
   );
