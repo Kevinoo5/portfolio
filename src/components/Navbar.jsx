@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`flex fixed w-full z-10 items-center px-12 text-white ${isBlurred ? 'backdrop-blur-xl' : ''}`}>
+    <div className={`flex fixed w-full z-10 items-center top-0 px-12 text-white ${isBlurred ? 'backdrop-blur-xl' : ''}`}>
       <div className="flex-1">
         <NavbarItem title="KEVIN NOORMETS" targetId="home" customStyles="text-3xl font-bold text-[#00df9a]">
           KEVIN NOORMETS
