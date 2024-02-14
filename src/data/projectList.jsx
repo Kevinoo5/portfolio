@@ -14,7 +14,7 @@ const projects = [
   {
     id: 3,
     title: "My Portfolio Website",
-    imageUrl: "portfolio3.png",
+    imageUrl: "portfolio.png",
     description: "This is my portfolio website. It was made using React and Tailwind CSS. It is a single page application that I created to showcase my skills and projects. It is also a great way to touch up on my React skills and learn about Tailwind CSS."
   },
 ];
