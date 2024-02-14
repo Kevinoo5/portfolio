@@ -8,7 +8,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const threshold = 400;
+      const threshold = 150;
       setIsBlurred(scrollPosition > threshold);
     };
 
