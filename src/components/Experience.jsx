@@ -21,13 +21,13 @@ const Experience = () => {
             "flex justify-evenly py-8 rounded-xl transition-colors text-white bg-gradient-to-b from-purple-950 to-[#3f2350]"
           }
         >
-          <div className="pl-28">
+          <div className="pl-12 md:pl-24">
             Frontend Developer on <strong>Volugram</strong>
           </div>
-          <div>January 2024 - Present</div>
+          <div className="pr-12 md:pr-0">January 2024 - Present</div>
         </AccordionHeader>
         <AccordionBody className="mt-2 pl-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
-        <img src="https://volugram.eu/wp-content/uploads/2024/02/VOLUGRAM-Logo-White.png" alt="Volugram" className="w-1/4" />
+        <img src="https://volugram.eu/wp-content/uploads/2024/02/VOLUGRAM-Logo-White.png" alt="Volugram" className="w-full md:w-1/4" />
 
           <p className="w-full">
             Developing the frontend of the Volugram volunteer recognition
