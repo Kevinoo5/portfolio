@@ -31,13 +31,23 @@ const skills = [
     },
     {
         id: 7,
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+        imageUrl: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg",
         name: "Bootstrap",
     },
     {
         id: 8,
         imageUrl: "mysql-official.svg",
         name: "MySQL",
+    },
+    {
+        id: 9,
+        imageUrl: "MongoDBLeaf.svg",
+        name: "MongoDB",
+    },
+    {
+        id: 10,
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+        name: "Python",
     },
 ];
 
