@@ -12,7 +12,7 @@ const Experience = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div id="experience" className="mx-2 lg:mx-64">
+    <div id="experience" className="mx-2 my-12 lg:mx-64">
       <AnimatedTitle title="Work Experience" />
       <Accordion open={open === 1} className="mb-2 rounded-lg">
         <AccordionHeader
