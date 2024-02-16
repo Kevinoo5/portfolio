@@ -67,9 +67,9 @@ const Footer = () => {
         />
         <button
           type="submit"
-          className="bg-purple-950 text-white w-3/5 md:w-1/5 mt-1 p-2 rounded-md"
+          className="bg-purple-950 text-white w-11/12 md:w-1/5 mt-1 p-2 rounded-md"
         >
-          Send
+          Send Mail
         </button>
       </form>
         <ToastContainer />
