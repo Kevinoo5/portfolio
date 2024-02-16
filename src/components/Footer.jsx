@@ -57,6 +57,7 @@ const Footer = () => {
           placeholder="Email"
           className="bg-slate-700 text-white w-11/12 md:w-4/5 p-2 h-12 rounded-md"
           required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         />
         <textarea
           type="text"
