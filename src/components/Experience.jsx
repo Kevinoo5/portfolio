@@ -24,12 +24,11 @@ const Experience = () => {
           <div className="pl-12 md:pl-24">
             Frontend Developer on <strong>Volugram</strong>
           </div>
-          <div className="pr-12 md:pr-0">January 2024 - Present</div>
+          <div className="pr-12 md:pr-0">January 2024 - March 2024</div>
         </AccordionHeader>
         <AccordionBody className="mt-2 pl-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
-        <img src="https://volugram.eu/wp-content/uploads/2024/02/VOLUGRAM-Logo-White.png" alt="Volugram" className="w-full md:w-1/4" />
 
-          <p className="w-full">
+          <p className="pt-6 w-full">
             Developing the frontend of the Volugram volunteer recognition
             platform using Vue.js and Tailwind CSS. I joined the team late into
             the project and was able to work on the final stages of the
