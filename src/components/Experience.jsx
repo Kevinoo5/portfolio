@@ -24,7 +24,7 @@ const Experience = () => {
           <div className="pl-4 pr-12 md:pl-24">
             Frontend Developer on <strong>Volugram</strong>
           </div>
-          <div className="mr-12 md:pr-0">January 2024 - March 2024</div>
+          <div className="pr-4">January 2024 - March 2024</div>
         </AccordionHeader>
         <AccordionBody className="mt-2 px-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
         <img src="volugram_logo.png" alt="Volugram" className="w-full md:w-1/4" />
@@ -37,7 +37,7 @@ const Experience = () => {
             according to client feedback.
           </p>
 
-          <ul className="flex flex-row px-5 mt-2 mb-1">
+          <ul className="flex flex-row text-nowrap flex-wrap px-5 mt-2 mb-1">
             <li className="mr-2 my-2 rounded-full p-3 bg-[#6e53da]">
               JavaScript
             </li>
