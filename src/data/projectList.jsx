@@ -4,7 +4,7 @@ const projects = [
     title: "Aasta Tegija 2024 Competition",
     link: "https://github.com/Kevinoo5/AastaTegija2024",
     imageUrl: "voco.png",
-    description: "This was project was made for the Aasta Tegija 2024 competition. The competition was held on the 17-18th of January in 2024 at Tartu Vocational College, it was done in teams of two to three students who had to recreate a randomly chosen Figma prototype made by other students with code in about 12 hours. The prototype was made for the Baltic Games for Vocational Schools. The website was made using plain HTML and CSS",
+    description: "This project was created for the Aasta Tegija 2024 competition at Tartu Vocational College on January 17-18, 2024. Teams of 2-3 students recreated a randomly chosen Figma prototype in about 12 hours using plain HTML and CSS. The prototype was for the Baltic Games for Vocational Schools.",
     liveDemo: "https://aasta-tegija-2024.vercel.app/"
   },
   {
@@ -27,8 +27,8 @@ const projects = [
     title: "Wurtle",
     link: "https://github.com/Kevinoo5/Wurtle-projekt/tree/main",
     imageUrl: "wordle.png",
-    extraClasses: "opacity-60",
-    description: "Wurtle is a simple word guessing game where the player tries to guess a hidden word of a specific length by entering words of the same length. It is a copy of the popular web game Wordle, but with a few extra features. The game interface is built using the Tkinter library in Python. The game randomly selects a word from a database and provides feedback to the player based on their guesses. I created this project with a classmate to learn about using databases in Python and to practice using the Tkinter library.",
+    extraClasses: "opacity-80",
+    description: "Wurtle is a word guessing game similar to Wordle, built with Tkinter in Python. Players guess a hidden word of a specific length, receiving feedback on their guesses. The game uses a word database and was created to learn about databases and Tkinter.",
   },
 ];
 

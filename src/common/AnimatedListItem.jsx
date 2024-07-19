@@ -9,11 +9,11 @@ const AnimatedListItem = ({ project }) => {
   return (
     <li
     ref={ref}
-    className={`p-1 bg-gradient-to-r from-slate-900 to-gray-800 rounded-xl mb-4 lg:mx-24 mx-2 flex ${
+    className={`p-1 bg-gradient-to-r from-slate-900 to-gray-800 rounded-xl mb-4 lg:mx-24 mx-2 flex flex-wrap justify-center sm:justify-normal sm:flex-nowrap ${
       inView ? "animate-fade-left animate-duration-[2500ms]" : "opacity-0"
     }`}
   >
-    <div className="my-6 mx-8">
+    <div className="my-6 mx-8 h-full">
       <img
         className={`rounded-3xl min-w-28 min-h-24 w-28 h-24 md:min-w-80 md:min-h-56 md:w-80 md:h-56 ${project.extraClasses} `}
         src={project.imageUrl}
@@ -30,8 +30,8 @@ const AnimatedListItem = ({ project }) => {
         )}
       </div>
     </div>
-    <div className="my-4 mx-12 flex flex-col justify-center">
-      <h2 className="text-white mb-8 text-2xl">{project.title}</h2>
+    <div className="my-4 mx-12 text-md sm:text-xl flex flex-col justify-center">
+      <h2 className="text-emerald-400 text-2xl font-bold mb-8">{project.title}</h2>
       <p className="text-white">{project.description}</p>
     </div>
   </li>
