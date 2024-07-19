@@ -21,15 +21,15 @@ const Experience = () => {
             "flex justify-evenly py-8 rounded-xl transition-colors text-white bg-gradient-to-b from-purple-950 to-[#3f2350]"
           }
         >
-          <div className="pl-12 md:pl-24">
+          <div className="pl-4 pr-12 md:pl-24">
             Frontend Developer on <strong>Volugram</strong>
           </div>
-          <div className="pr-12 md:pr-0">January 2024 - March 2024</div>
+          <div className="mr-12 md:pr-0">January 2024 - March 2024</div>
         </AccordionHeader>
-        <AccordionBody className="mt-2 pl-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
+        <AccordionBody className="mt-2 px-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
         <img src="volugram_logo.png" alt="Volugram" className="w-full md:w-1/4" />
 
-          <p className="w-full">
+          <p className="w-full text-lg px-6">
             Developing the frontend of the Volugram volunteer recognition
             platform using Vue.js and Tailwind CSS. I joined the team late into
             the project and was able to work on the final stages of the
@@ -37,7 +37,7 @@ const Experience = () => {
             according to client feedback.
           </p>
 
-          <ul className="flex flex-row mt-2 mb-1">
+          <ul className="flex flex-row px-5 mt-2 mb-1">
             <li className="mr-2 my-2 rounded-full p-3 bg-[#6e53da]">
               JavaScript
             </li>

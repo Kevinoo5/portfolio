@@ -17,7 +17,6 @@ const projects = [
   },
   {
     id: 3,
-    link: "https://github.com/Kevinoo5/portfolio",
     title: "My Portfolio Website",
     link: "https://github.com/Kevinoo5/portfolio",
     imageUrl: "portfolio.png",
