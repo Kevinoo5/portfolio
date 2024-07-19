@@ -9,13 +9,13 @@ import Footer from './components/Footer'
 const App = () => {
     return (
         <div className="App bg-gradient-to-b from-gray-900 to-gray-800">
-        <Navbar />
-        <Banner />
-        <AboutMe />
-        <Skills />
-        <MyProjects />
-        <Experience />
-        <Footer />
+            <Navbar />
+            <Banner />
+            <AboutMe />
+            <Skills />
+            <MyProjects />
+            <Experience />
+            <Footer />
     </div>
     )
 }
