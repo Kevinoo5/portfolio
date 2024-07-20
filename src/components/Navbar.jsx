@@ -48,7 +48,10 @@ const Navbar = () => {
           </NavbarItem>
         </div>
 
-        <div className="lg:hidden" onClick={toggleMenu}>
+        <div
+          className={`lg:hidden ${showMenu ? "hidden" : "block"}`}
+          onClick={toggleMenu}
+        >
           <svg
             className="w-8 h-8 cursor-pointer"
             fill="none"
