@@ -13,11 +13,19 @@ const Banner = () => {
     >
       {/* Overlay for background image */}
 
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-20 z-1" />
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-40 z-1" />
 
-      <BackgroundBlob color={"bg-blue-500"} />
-      <BackgroundBlob color={"bg-indigo-400"} position={"top-12 right-24"} />
-      <BackgroundBlob color={"bg-pink-400"} position={"top-48 left-1/4"} />
+      <BackgroundBlob color={"bg-blue-500"} opacity={"opacity-20"} />
+      <BackgroundBlob
+        color={"bg-indigo-400"}
+        position={"top-12 right-24"}
+        opacity={"opacity-20"}
+      />
+      <BackgroundBlob
+        color={"bg-pink-400"}
+        position={"top-48 left-1/4"}
+        opacity={"opacity-20"}
+      />
       <div className="text-white pr-0 z-content sm:pr-24 w-full">
         <h1 className="text-5xl font-bold lg:text-8xl py-3 sm:py-6">
           Welcome to my portfolio.

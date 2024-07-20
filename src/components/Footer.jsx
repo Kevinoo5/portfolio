@@ -2,6 +2,7 @@ import { ToastContainer } from "react-toastify";
 import { useState, useEffect } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import EmailForm from "./EmailForm.jsx";
+import BackgroundBlob from "../common/BackgroundBlob.jsx";
 
 const Footer = () => {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
@@ -16,7 +17,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="flex text-white flex-col items-center md:items-start md:flex-row justify-around bottom-0 left-0 pt-24 pb-16 bg-slate-800">
+    <footer className="flex relative overflow-hidden text-white flex-col items-center md:items-start md:flex-row justify-around bottom-0 left-0 pt-24 pb-16 bg-slate-800">
       {isDesktop ? (
         <div className="hidden md:flex flex-col px-4 md:px-12">
           <p className="text-3xl md:text-5xl mb-4 font-bold">Get in touch</p>
@@ -82,6 +83,18 @@ const Footer = () => {
         </div>
       )}
       <EmailForm displayClasses={"hidden md:flex"} />
+      <BackgroundBlob
+        color={"bg-emerald-500"}
+        opacity={"opacity-20"}
+        size={"w-48 h-48"}
+        position={"-bottom-36 right-36"}
+      />
+      <BackgroundBlob
+        color={"bg-blue-500"}
+        opacity={"opacity-20"}
+        size={"w-48 h-48"}
+        position={"top-0 left-0"}
+      />
       <ToastContainer />
     </footer>
   );

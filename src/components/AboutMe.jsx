@@ -1,8 +1,9 @@
 import AnimatedTitle from "../common/AnimatedTitle";
+import BackgroundBlob from "../common/BackgroundBlob.jsx";
 
 const AboutMe = () => {
   return (
-    <div className="relative px-12 py-12 w-full" id="about">
+    <div className="relative md:overflow-visible px-12 py-12 w-full" id="about">
       <div className="absolute h-12 inset-0 -top-7 w-full min-w-full left-0 right-0 bottom-0 bg-gray-900 blur-md" />
       <AnimatedTitle title={"About Me"} />
       <div className="text-white z-10">
@@ -17,6 +18,19 @@ const AboutMe = () => {
           if I get stuck on a problem.
         </h1>
       </div>
+      <BackgroundBlob
+        color={"bg-blue-600"}
+        position={"top-24"}
+        opacity={"opacity-10"}
+        mobileHidden={true}
+      />
+      <BackgroundBlob
+        color={"bg-emerald-400"}
+        position={"-bottom-96 right-48"}
+        size={"w-48 h-72"}
+        opacity={"opacity-10"}
+        mobileHidden={true}
+      />
     </div>
   );
 };
