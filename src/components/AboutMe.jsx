@@ -2,9 +2,10 @@ import AnimatedTitle from "../common/AnimatedTitle";
 
 const AboutMe = () => {
   return (
-    <div className="px-12 py-8 w-full" id="about">
+    <div className="relative px-12 py-12 w-full" id="about">
+      <div className="absolute h-12 inset-0 -top-7 w-full min-w-full left-0 right-0 bottom-0 bg-gray-900 blur-md" />
       <AnimatedTitle title={"About Me"} />
-      <div className="text-white">
+      <div className="text-white z-10">
         <h1 className="w-full text-md lg:w-2/5 mx-auto sm:text-xl py-6">
           Three years ago I went to Tartu Vocational College to study to become
           a software developer and in that time I have learned a lot about
