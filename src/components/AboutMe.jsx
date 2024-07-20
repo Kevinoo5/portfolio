@@ -33,7 +33,7 @@ const AboutMe = () => {
       />
       <BackgroundBlob
         color={"bg-emerald-400"}
-        position={"-bottom-96 right-48"}
+        position={"-bottom-96 right-72"}
         size={"w-56 h-56"}
         opacity={"opacity-20"}
         mobileHidden={true}
