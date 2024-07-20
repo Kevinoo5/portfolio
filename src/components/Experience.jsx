@@ -27,7 +27,11 @@ const Experience = () => {
           <div className="pr-4">January 2024 - March 2024</div>
         </AccordionHeader>
         <AccordionBody className="mt-2 px-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
-        <img src="volugram_logo.png" alt="Volugram" className="w-full md:w-1/4" />
+          <img
+            src="volugram_logo.png"
+            alt="Volugram"
+            className="w-full md:w-1/4"
+          />
 
           <p className="w-full text-lg px-6">
             Developing the frontend of the Volugram volunteer recognition
@@ -46,7 +50,6 @@ const Experience = () => {
               Tailwind CSS
             </li>
           </ul>
-
         </AccordionBody>
       </Accordion>
     </div>
