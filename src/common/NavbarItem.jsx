@@ -1,6 +1,12 @@
 import { useRef } from "react";
 
-const NavbarItem = ({ title, targetId, customStyles }) => {
+const NavbarItem = ({
+  title,
+  targetId,
+  customStyles,
+  toggleMenu,
+  showMenu,
+}) => {
   const navbarRef = useRef(null);
 
   const handleClick = () => {
@@ -10,13 +16,20 @@ const NavbarItem = ({ title, targetId, customStyles }) => {
     }
   };
 
-  return (  
+  return (
     <div ref={navbarRef} className="p-6 m-2">
       <button
-        onClick={handleClick}
+        onClick={
+          showMenu
+            ? () => {
+                handleClick();
+                toggleMenu();
+              }
+            : handleClick
+        }
         className={`text-2xl cursor-pointer hover-underline-animation ${customStyles}`}
       >
-       { title }
+        {title}
       </button>
     </div>
   );

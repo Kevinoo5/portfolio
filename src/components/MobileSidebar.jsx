@@ -14,10 +14,30 @@ const MobileSidebar = ({ showMenu, toggleMenu }) => {
       >
         X
       </div>
-      <NavbarItem title="About Me" targetId="about" />
-      <NavbarItem title="Skills" targetId="skills" />
-      <NavbarItem title="Projects" targetId="projects" />
-      <NavbarItem title="Experience" targetId="experience" />
+      <NavbarItem
+        title="About Me"
+        targetId="about"
+        toggleMenu={toggleMenu}
+        showMenu={showMenu}
+      />
+      <NavbarItem
+        title="Skills"
+        targetId="skills"
+        toggleMenu={toggleMenu}
+        showMenu={showMenu}
+      />
+      <NavbarItem
+        title="Projects"
+        targetId="projects"
+        toggleMenu={toggleMenu}
+        showMenu={showMenu}
+      />
+      <NavbarItem
+        title="Experience"
+        targetId="experience"
+        toggleMenu={toggleMenu}
+        showMenu={showMenu}
+      />
     </div>
   );
 };

@@ -43,6 +43,8 @@ const Navbar = () => {
             title="KEVIN NOORMETS"
             targetId="home"
             className={"text-3xl font-bold text-[#00df9a]"}
+            toggleMenu={toggleMenu}
+            showMenu={showMenu}
           >
             KEVIN NOORMETS
           </NavbarItem>
