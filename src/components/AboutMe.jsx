@@ -9,14 +9,15 @@ const AboutMe = () => {
       <div className="flex justify-center flex-row text-white z-10">
         <div className="flex flex-col justify-around lg:flex-row items-center w-full lg:w-2/3 mx-auto">
           <h1 className="text-md z-2 flex flex-col sm:text-xl py-6 lg:w-1/3">
-            Three years ago I went to Tartu Vocational College to study to
-            become a software developer and in that time I have learned a lot
-            about everything to do with the life of a developer. I have only
-            worked on one project professionally in that time, but that gave me
-            a lot of experience of the work I would be doing. I am always
-            thinking of how to improve myself and enjoy collaborating with other
-            people, as I like always talking my decisions through with someone
-            and asking for help if I get stuck on a problem.
+            Three years ago, I started my studies at Tartu Vocational College
+            with the goal of becoming a proficient software developer, and in
+            that time I have learned a lot about everything to do with the life
+            of a developer. I have only worked on one project professionally in
+            that time, but that gave me a lot of experience of the work I would
+            be doing. I am always thinking of how to improve myself and enjoy
+            collaborating with other people, as I like always talking my
+            decisions through with someone and asking for help if I get stuck on
+            a problem.
           </h1>
           <img
             src="kevin.jpg"
@@ -36,6 +37,13 @@ const AboutMe = () => {
         position={"-bottom-96 right-72"}
         size={"w-56 h-56"}
         opacity={"opacity-20"}
+        mobileHidden={true}
+      />
+      <BackgroundBlob
+        color={"bg-slate-400"}
+        position={"top-8 right-24"}
+        size={"w-24 h-24"}
+        opacity={"opacity-40"}
         mobileHidden={true}
       />
     </div>
