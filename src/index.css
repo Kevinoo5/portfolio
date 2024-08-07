@@ -29,3 +29,15 @@ html {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+.animate-delay-1 { animation-delay: 250ms; }
+.animate-delay-2 { animation-delay: 350ms; }
+.animate-delay-3 { animation-delay: 450ms; }
+.animate-delay-4 { animation-delay: 450ms; }
+.animate-delay-5 { animation-delay: 550ms; }
+.animate-delay-6 { animation-delay: 650ms; }
+.animate-delay-7 { animation-delay: 750ms; }
+.animate-delay-8 { animation-delay: 850ms; }
+.animate-delay-9 { animation-delay: 950ms; }
+.animate-delay-10 { animation-delay: 1050ms; }

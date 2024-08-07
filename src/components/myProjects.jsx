@@ -19,8 +19,8 @@ const MyProjects = () => {
       <BackgroundBlob
         color={"bg-teal-800"}
         position={"right-72"}
-        size={"w-48 h-48"}
-        opacity={"opacity-50"}
+        size={"w-24 h-24"}
+        opacity={"opacity-70"}
       />
     </ul>
   );

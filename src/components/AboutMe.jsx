@@ -8,7 +8,7 @@ const AboutMe = () => {
       <AnimatedTitle title={"About Me"} />
       <div className="flex justify-center flex-row text-white z-10">
         <div className="flex flex-col justify-around lg:flex-row items-center w-full lg:w-2/3 mx-auto">
-          <h1 className="text-md flex flex-col sm:text-xl py-6 lg:w-1/3">
+          <h1 className="text-md z-2 flex flex-col sm:text-xl py-6 lg:w-1/3">
             Three years ago I went to Tartu Vocational College to study to
             become a software developer and in that time I have learned a lot
             about everything to do with the life of a developer. I have only
