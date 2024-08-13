@@ -15,7 +15,7 @@ const EmailForm = ({ displayClasses }) => {
         form.current,
         {
           publicKey: import.meta.env.VITE_MAIL_PUBLICKEY,
-        },
+        }
       )
       .then(() => {
         console.log("Email sent successfully!");

@@ -11,7 +11,7 @@ const MyProjects = () => {
         color={"bg-purple-600"}
         position={""}
         size={"w-36 h-36"}
-        opacity={"opacity-60"}
+        opacity={"opacity-40"}
       />
       {projects.map((project) => (
         <AnimatedListItem key={project.id} project={project} />

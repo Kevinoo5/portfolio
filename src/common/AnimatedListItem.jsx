@@ -16,7 +16,11 @@ const AnimatedListItem = ({ project }) => {
           <img
             className={`rounded-3xl min-w-28 min-h-24 w-28 h-24 md:min-w-80 md:min-h-56 md:w-80 md:h-56 ${
               project.extraClasses
-            } ${inView ? "animate-fade animate-delay-300" : "opacity-0"}`}
+            } ${
+              inView
+                ? "animate-fade animate-duration-700 animate-delay-700"
+                : "opacity-0"
+            }`}
             src={project.imageUrl}
             alt={project.title}
           />
@@ -26,7 +30,9 @@ const AnimatedListItem = ({ project }) => {
                 src="github-mark-white.svg"
                 alt="GitHub"
                 className={`w-8 h-8 mt-2 ${
-                  inView ? "animate-fade-up animate-delay-1000" : "opacity-0"
+                  inView
+                    ? "animate-fade-up animate-delay-[1400ms]"
+                    : "opacity-0"
                 }`}
               />
             </a>
@@ -37,7 +43,7 @@ const AnimatedListItem = ({ project }) => {
                   alt="Live Demo"
                   className={`w-8 h-8 mt-2 ${
                     inView
-                      ? "animate-fade-up animate-delay-[1200ms]"
+                      ? "animate-fade-up animate-delay-[1700ms]"
                       : "opacity-0"
                   }`}
                 />
