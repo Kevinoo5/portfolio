@@ -15,7 +15,7 @@ const Skills = () => {
         <div className="my-4 grid-cols-2 gap-12 grid sm:flex sm:flex-wrap justify-center w-full md:w-3/5">
           {skills.map((skill, index) => (
             <div
-              key={skill.id}
+              key={skill.name}
               className={`flex flex-col justify-center items-center my-6  ${
                 inView
                   ? `animate-jump-in animate-delay-${index + 1}`
