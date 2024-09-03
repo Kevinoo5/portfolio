@@ -1,11 +1,34 @@
+import { useEffect, useState } from "react";
 import AnimatedTitle from "../common/AnimatedTitle";
 import skills from "../data/skillList";
 import { useInView } from "react-intersection-observer";
 
 const Skills = () => {
+  const [threshold, setThreshold] = useState(0.6);
+
+  useEffect(() => {
+    const updateThreshold = () => {
+      if (window.innerWidth < 768) {
+        setThreshold(0.45);
+      } else if (window.innerWidth < 1024) {
+        setThreshold(0.5);
+      } else {
+        setThreshold(0.6);
+      }
+    };
+
+    // Update threshold on initial load
+    updateThreshold();
+
+    window.addEventListener("resize", updateThreshold);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", updateThreshold);
+  }, []);
+
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.6,
+    threshold: threshold,
   });
 
   return (
