@@ -18,21 +18,22 @@ const Experience = () => {
         <AccordionHeader
           onClick={() => handleOpen(1)}
           className={
-            "flex justify-evenly py-8 rounded-xl transition-colors text-white bg-gradient-to-b from-purple-950 to-[#3f2350]"
+            "flex py-8 rounded-xl transition-colors text-white bg-[#1e2a47]"
           }
         >
-          <div className="pl-4 pr-12 md:pl-24">
-            Frontend Developer on <strong>Volugram</strong>
+          <div className="flex justify-evenly text-xl w-full">
+            <div>
+              Frontend Developer on <strong>Volugram</strong>
+            </div>
+            <div>January 2024 - March 2024</div>
           </div>
-          <div className="pr-4">January 2024 - March 2024</div>
         </AccordionHeader>
-        <AccordionBody className="mt-2 px-6 rounded-md bg-[#4e3f8d] text-white overflow-hidden">
+        <AccordionBody className="mt-2 px-6 rounded-md bg-[#2d3a61] text-white overflow-hidden">
           <img
             src="volugram_logo.png"
             alt="Volugram"
             className="w-full md:w-1/4"
           />
-
           <p className="w-full text-lg px-6">
             Developing the frontend of the Volugram volunteer recognition
             platform using Vue.js and Tailwind CSS. I joined the team late into
@@ -40,15 +41,54 @@ const Experience = () => {
             development process along with adding and changing certain elements
             according to client feedback.
           </p>
-
           <ul className="flex flex-row text-nowrap flex-wrap px-5 mt-2 mb-1">
-            <li className="mr-2 my-2 rounded-full p-3 bg-[#6e53da]">
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">
               JavaScript
             </li>
-            <li className="mr-2 my-2 rounded-full p-3 bg-[#6e53da]">Vue.js</li>
-            <li className="mr-2 my-2 rounded-full p-3 bg-[#6e53da]">
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">Vue.js</li>
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">
               Tailwind CSS
             </li>
+          </ul>
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 2} className="mb-2 rounded-lg">
+        <AccordionHeader
+          onClick={() => handleOpen(2)}
+          className={
+            "flex justify-between py-8 rounded-xl transition-colors text-white bg-[#1e2a47]"
+          }
+        >
+          <div className="flex justify-evenly text-xl w-full">
+            <div>
+              Software Development Intern at <strong>RmIT</strong>
+            </div>
+            <div>November 2024 - April 2025</div>
+          </div>
+        </AccordionHeader>
+        <AccordionBody className="mt-2 px-6 rounded-md bg-[#2d3a61] text-white overflow-hidden">
+          <img
+            src="RmIT_logo.svg"
+            alt="RmIT"
+            className="w-full md:w-1/6 py-2"
+          />
+          <p className="w-full text-lg px-6">
+            Designed and implemented production-grade software solutions for
+            managing Jira and collecting data from REST APIs using Python.
+            Created a full-stack web application for managing GitLab automatic
+            pipelines using Flask and React, using a Flask REST API to serve
+            data about GitLab pipelines to the React frontend.
+          </p>
+          <ul className="flex flex-row text-nowrap flex-wrap px-5 mt-2 mb-1">
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">
+              JavaScript
+            </li>
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">React</li>
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">
+              Tailwind CSS
+            </li>
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">Python</li>
+            <li className="mr-2 my-2 rounded-full p-3 bg-[#3b5b8e]">Flask</li>
           </ul>
         </AccordionBody>
       </Accordion>
