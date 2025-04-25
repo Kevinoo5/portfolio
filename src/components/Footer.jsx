@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       ) : (
-        <div className="flex md:hidden pb-6 flex-col px-4">
+        <div className="flex md:hidden pb-6 flex-col px-4 z-10">
           <p className="text-3xl md:text-5xl mb-2 font-bold">Get in touch</p>
           <p className="text-md pb-6">
             Have questions or requests? Send me an email and let&apos;s talk!
