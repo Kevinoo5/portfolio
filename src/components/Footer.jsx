@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="text-md">
             Have questions or requests? Send me an email and lets talk!
           </p>
-          <div className="hidden md:flex mt-12 flex-row gap-6 items-center">
+          <div className="hidden md:flex mt-12 z-10 flex-row gap-6 items-center">
             <a
               href="https://github.com/Kevinoo5"
               target="_blank"
@@ -56,7 +56,7 @@ const Footer = () => {
             Have questions or requests? Send me an email and let&apos;s talk!
           </p>
           <EmailForm displayClasses={"flex md:hidden"} />
-          <div className="mt-12 flex justify-center flex-row gap-6 items-center">
+          <div className="mt-12 z-10 flex justify-center flex-row gap-6 items-center">
             <a
               href="https://github.com/Kevinoo5"
               target="_blank"
