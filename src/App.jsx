@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import MyProjects from './components/myProjects'
@@ -16,7 +17,8 @@ const App = () => {
             <MyProjects />
             <Experience />
             <Footer />
-    </div>
+            <Analytics />
+        </div>
     )
 }
 
