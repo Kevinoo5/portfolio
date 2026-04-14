@@ -9,18 +9,14 @@ const AboutMe = () => {
       <div className="flex justify-center flex-row text-white z-10">
         <div className="flex flex-col justify-around lg:flex-row items-center w-full lg:w-2/3 mx-auto">
           <h1 className="text-md z-2 flex flex-col sm:text-xl py-6 lg:w-1/3">
-            Three years ago, I started my studies at Tartu Vocational College
+            Four years ago, I started my studies at Tartu Vocational College
             with the goal of becoming a proficient software developer, and in
             that time I have learned a lot about everything to do with the life
-            of a developer. I have only worked on one project professionally in
-            that time, but that gave me a lot of experience of the work I would
-            be doing. I am always thinking of how to improve myself and enjoy
-            collaborating with other people, as I like always talking my
-            decisions through with someone and asking for help if I get stuck on
-            a problem.
+            of a developer. Now continuing my journey in Tartu University, pursuing
+              a Bachelor&apos;s degree in Computer Science.
           </h1>
           <img
-            src="kevin.jpg"
+            src="kevin1.jpg"
             alt="Kevin Noormets"
             className="rounded-3xl flex items-start origin-bottom duration-700 hover:rotate-6 hover:shadow-2xl hover:shadow-blue-400 w-[20rem] lg:w-1/4"
           />
