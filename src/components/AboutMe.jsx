@@ -12,7 +12,7 @@ const AboutMe = () => {
             Four years ago, I started my studies at Tartu Vocational College
             with the goal of becoming a proficient software developer, and in
             that time I have learned a lot about everything to do with the life
-            of a developer. Now continuing my journey in Tartu University, pursuing
+            of a developer. Now continuing my journey in the University of Tartu, pursuing
               a Bachelor&apos;s degree in Computer Science.
           </h1>
           <img

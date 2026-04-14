@@ -32,7 +32,7 @@ const Banner = () => {
         </h1>
         <p className="mt-3 md:mt-6 w-full text-md sm:text-lg">
           My name is Kevin Noormets, I am a dedicated student on the path to
-          becoming a proficient software developer. Currently in my first year of studies at Tartu University.
+          becoming a proficient software developer. Currently in my first year of studies at the University of Tartu.
           I love writing code and
           figuring out how to bring all of my ideas to life.
         </p>
