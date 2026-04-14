@@ -32,8 +32,12 @@ const skills = [
     name: "Tailwind CSS",
   },
   {
-    imageUrl: "bootstrap-logo.svg",
-    name: "Bootstrap",
+    imageUrl: "Spring_Boot.svg",
+    name: "Spring Boot",
+  },
+  {
+    imageUrl: "Java_Logo.svg",
+    name: "Java"
   },
   {
     imageUrl: "mysql-official.svg",

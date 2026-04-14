@@ -17,10 +17,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "My Portfolio Website",
-    link: "https://github.com/Kevinoo5/portfolio",
-    imageUrl: "portfolio.png",
-    description: "This is my portfolio website. It was made using React and Tailwind CSS. It is a single page application that I created to showcase my skills and projects. It is also a great way to touch up on my React skills and learn about Tailwind CSS."
+    title: "Watering Indicator For Houseplants",
+    link: "https://github.com/OkiEmil/watering_indicator",
+    liveDemo: "https://github.com/OkiEmil/watering_indicator/blob/main/Watering%20indicator%20poster.pdf",
+    imageUrl: "houseplant.svg",
+    description: "This group project was created using plant pot weight data given to us by Click & Grow, who were hoping we could find the optimal watering time only by weight, since water intake takes place in two phases, which should be detectable using data and machine learning." +
+        "Sadly we were unable to get very conclusive results, but during it I learned a lot about Machine Learning and data processing. There is also a pdf poster attached, which we used to present our findings."
   },
   {
     id: 4,
