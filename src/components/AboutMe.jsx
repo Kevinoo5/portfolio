@@ -16,7 +16,7 @@ const AboutMe = () => {
               a Bachelor&apos;s degree in Computer Science.
           </h1>
           <img
-            src="kevin1.jpg"
+            src="kevin.jpg"
             alt="Kevin Noormets"
             className="rounded-3xl flex items-start origin-bottom duration-700 hover:rotate-6 hover:shadow-2xl hover:shadow-blue-400 w-[20rem] lg:w-1/4"
           />
