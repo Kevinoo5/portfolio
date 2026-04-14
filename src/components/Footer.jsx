@@ -37,7 +37,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/kevin-noormets-1905a4253/"
+              href="https://www.linkedin.com/in/kevin-noormets/"
               target="_blank"
               rel="noopener noreferrer"
             >
